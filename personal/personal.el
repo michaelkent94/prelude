@@ -23,3 +23,6 @@
 
 ;; Add a nice binding to open project explorer
 (global-set-key (kbd "C-c C-p") 'project-explorer-open)
+
+;; Guru mode always on
+(guru-global-mode 1)
