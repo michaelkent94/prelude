@@ -1,9 +1,30 @@
-[![License GPL 3][badge-license]](http://www.gnu.org/licenses/gpl-3.0.txt)
-[![Gratipay Team](https://img.shields.io/gratipay/team/prelude.svg?maxAge=2592000)](https://gratipay.com/prelude/)
+Personal Changes
+==============
+
+## Install
+Installation is slightly different than vanilla prelude since it needs to clone from this repo.
+```bash
+curl -L https://git.io/epre | sh -s -- -s https://github.com/michaelkent94/prelude.git
+```
+
+NOTE: To make sure that [company-sourcekit](https://github.com/nathankot/company-sourcekit) works, follow their install instructions as well.
+
+## Added Packages
+My version of prelude also includes the following packages by default:
+- [company](http://company-mode.github.io)
+- [company-sourcekit](https://github.com/nathankot/company-sourcekit)
+- [flycheck](https://github.com/flycheck/flycheck)
+- [flycheck-swift](https://github.com/swift-emacs/flycheck-swift)
+- [project-explorer](https://github.com/sabof/project-explorer)
+- [swift-mode](https://github.com/swift-emacs/swift-mode)
+- [yasnippet](https://github.com/joaotavora/yasnippet)
+- [yasnippet-snippets](https://github.com/AndreaCrotti/yasnippet-snippets)
+
 
 Emacs Prelude
 =============
-
+[![License GPL 3][badge-license]](http://www.gnu.org/licenses/gpl-3.0.txt)
+[![Gratipay Team](https://img.shields.io/gratipay/team/prelude.svg?maxAge=2592000)](https://gratipay.com/prelude/)
 [![Join the chat at https://gitter.im/bbatsov/prelude](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/bbatsov/prelude?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Prelude is an Emacs distribution that aims to enhance the default
