@@ -7,7 +7,7 @@ Installation is slightly different than vanilla prelude since it needs to clone 
 curl -L https://git.io/epre | sh -s -- -s https://github.com/michaelkent94/prelude.git
 ```
 
-NOTE: To make sure that [company-sourcekit](https://github.com/nathankot/company-sourcekit) works, follow their install instructions as well.
+NOTE: To make sure that [company-sourcekit](https://github.com/nathankot/company-sourcekit) works, follow their link to install SourceKittenDaemon as well.
 
 ## Added Packages
 My version of prelude also includes the following packages by default:
