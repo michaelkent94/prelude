@@ -24,5 +24,13 @@
 ;; Add a nice binding to open project explorer
 (global-set-key (kbd "C-c C-p") 'project-explorer-open)
 
+;; Add some folders to ignore in project explorer
+(setq pe/omit-regex (mapconcat 'identity
+                               '("^\\." "^#" "~$" "^build$")
+                               "\\|"))
+
 ;; Guru mode always on
 (guru-global-mode 1)
+
+;; Magit
+(global-set-key (kbd "C-x g") 'magit-status)
