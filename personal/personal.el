@@ -1,6 +1,6 @@
 ;; Require a few extra packages
-(prelude-require-packages '(company company-sourcekit flycheck flycheck-swift flycheck-swift3
-                                    project-explorer swift-mode swift3-mode yasnippet yasnippet-snippets))
+(prelude-require-packages '(company company-sourcekit flycheck flycheck-swift 
+                                    project-explorer swift-mode yasnippet yasnippet-snippets))
 
 ;; Company and Company SourceKit
 (defun company-sourcekit-init ()
