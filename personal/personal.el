@@ -11,7 +11,10 @@
       'company-sourcekit)))
 
 (add-hook 'after-init-hook 'global-company-mode)
-(add-hook 'swift-mode-hook 'company-sourcekit-init)
+;(add-hook 'swift-mode-hook 'company-sourcekit-init)
+(add-hook 'swift-mode-hook (lambda ()
+                             (company-sourcekit-init)
+                             (flycheck-mode 1)))
 
 (global-set-key (kbd "<backtab>") 'company-complete-common)
 
