@@ -34,3 +34,10 @@
 
 ;; Magit
 (global-set-key (kbd "C-x g") 'magit-status)
+
+;; GUI Emacs
+(menu-bar-mode -1)
+(toggle-scroll-bar -1)
+(tool-bar-mode -1)
+(set-face-attribute 'mode-line nil :box nil)
+(set-face-attribute 'mode-line-inactive nil :box nil)
