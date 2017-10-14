@@ -25,7 +25,7 @@
 (add-hook 'prog-mode-hook 'yas-minor-mode)
 
 ;; Add a nice binding to open project explorer
-(global-set-key (kbd "C-c C-p") 'project-explorer-open)
+(global-set-key (kbd "C-c C-p") 'project-explorer-toggle)
 
 ;; Add some folders to ignore in project explorer
 (setq pe/omit-regex (mapconcat 'identity
